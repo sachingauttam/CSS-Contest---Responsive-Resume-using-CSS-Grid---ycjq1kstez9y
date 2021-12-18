@@ -1,0 +1,349 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex d502a6f..41ac293 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -20,6 +20,110 @@[m
+             <section class="left-section">[m
+                  <div class="left-content">[m
+                     <!-- Write code for the left section here -->[m
+[32m+[m[32m                    <div class="profile-details">[m[41m[m
+[32m+[m[32m                        <div class="profile">[m[41m[m
+[32m+[m[32m                            <img class="profile-image" src="https://scontent.fudr1-1.fna.fbcdn.net/v/t1.6435-9/197849944_229610492309561_4058481551202961244_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=973b4a&_nc_ohc=SxNtTT7EijUAX-tLAzq&_nc_ht=scontent.fudr1-1.fna&oh=00_AT8NbdRegU-2x_uSZF9N0qGRmyXAv4tMxBRV6d8fWPDYEg&oe=61E3CD42" alt="Profile Image" >[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                        <h2 class="name">Mahesh Sharma</h2>[m[41m[m
+[32m+[m[32m                        <h4 class="designation">Student Leader</h4>[m[41m[m
+[32m+[m[32m                        <hr>[m[41m[m
+[32m+[m[32m                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, architecto!</p>[m[41m[m
+[32m+[m[32m                    </div>[m[41m[m
+[32m+[m[32m                    <div class="contact-info">[m[41m[m
+[32m+[m[32m                        <div class="contact-item">[m[41m[m
+[32m+[m[32m                            <div class="social-media">[m[41m[m
+[32m+[m[32m                                <li class="icon"><a href="https://www.linkedin.com/in/sachin-kumar-sharma-7503021b8/" target="_blank"> <i class="fa fa-linkedin"></i></a></li>[m[41m[m
+[32m+[m[32m                                <li class="icon"><a href="https://github.com/sachingauttam" target="_blank"> <i class="fa fa-github"></i></a></li>[m[41m[m
+[32m+[m[32m                                <li class="icon"><a href="https://facebook.com/sachin" target="_blank"> <i class="fa fa-facebook"></i></a></li>[m[41m[m
+[32m+[m[32m                                <li class="icon"><a href="https://twitter.com/sachin" target="_blank"> <i class="fa fa-twitter"></i></a></li>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                        <div class="contactInfo">[m[41m[m
+[32m+[m[32m                            <ul>[m[41m[m
+[32m+[m[32m                                <li>[m[41m[m
+[32m+[m[32m                                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>[m[41m[m
+[32m+[m[32m                                    <span class="text">+1 234 5678 900</span>[m[41m[m
+[32m+[m[32m                                </li>[m[41m[m
+[32m+[m[32m                                <li>[m[41m[m
+[32m+[m[32m                                    <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>[m[41m[m
+[32m+[m[32m                                    <span class="text">sachin@email.com</span>[m[41m[m
+[32m+[m[32m                                </li>[m[41m[m
+[32m+[m[32m                                <li>[m[41m[m
+[32m+[m[32m                                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>[m[41m[m
+[32m+[m[32m                                    <span class="text">City, State, Country</span>[m[41m[m
+[32m+[m[32m                                </li>[m[41m[m
+[32m+[m[32m                            </ul>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                        <div class="skills">[m[41m[m
+[32m+[m[32m                            <h2 class="skills-title">Skills</h2>[m[41m[m
+[32m+[m[32m                            <div class="skill-content">[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>HTML</h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 90%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>CSS</h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 90%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>JavaScript</h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 30%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>React</h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 05%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>NodeJS</h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 08%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>MongoDB</h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 10%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>MySQL</h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 90%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                                <div class="skill-item">[m[41m[m
+[32m+[m[32m                                    <div class="skill-name">[m[41m[m
+[32m+[m[32m                                        <h4>PHP/h4>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                    <div class="progress-bar">[m[41m[m
+[32m+[m[32m                                        <div style="width: 60%;"></div>[m[41m[m
+[32m+[m[32m                                    </div>[m[41m[m
+[32m+[m[32m                                </div>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                    </div>[m[41m[m
+                 </div>[m
+             </div>[m
+             </section>[m
+[36m@@ -28,6 +132,79 @@[m
+                 <div class="right-main-content">[m
+                     [m
+                     <!-- Write code for the right section here -->[m
+[32m+[m[32m                    <section class="about sect">[m[41m[m
+[32m+[m[32m                        <h4 class="right-title">About Me</h4>[m[41m[m
+[32m+[m[32m                        <p class="para">Politically aware and invigorated by social justice LGBTQIA+ activist seeking a position in a socio-political activist position. Express focus in Queer youth support and with a focus on social issues affecting youth of color, with a year background in LGBTQIA+ community support and justice.[m[41m[m
+[32m+[m[32m                        </p>[m[41m[m
+[32m+[m[32m                    </section>[m[41m[m
+[32m+[m[32m                    <section class="education sect">[m[41m[m
+[32m+[m[32m                        <h4 class="right-title">Education</h4>[m[41m[m
+[32m+[m[32m                        <div class="box">[m[41m[m
+[32m+[m[32m                            <div class="text">[m[41m[m
+[32m+[m[32m                                <h4>Degree Latest</h4>[m[41m[m
+[32m+[m[32m                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.[m[41m [m
+[32m+[m[32m                                    Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                            <div class="year">[m[41m[m
+[32m+[m[32m                                <h5>Univ/college Name</h5>[m[41m[m
+[32m+[m[32m                                <h6>yyyy - yyyy</h6>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                        <div class="box">[m[41m[m
+[32m+[m[32m                            <div class="text">[m[41m[m
+[32m+[m[32m                                <h4>Degree Last</h4>[m[41m[m
+[32m+[m[32m                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.[m[41m [m
+[32m+[m[32m                                    Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                            <div class="year">[m[41m[m
+[32m+[m[32m                                <h5>Univ/college Name</h5>[m[41m[m
+[32m+[m[32m                                <h6>yyyy - yyyy</h6>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                    </section>[m[41m[m
+[32m+[m[32m                    <section class="experience sect">[m[41m[m
+[32m+[m[32m                        <h4 class="right-title">Experience</h4>[m[41m[m
+[32m+[m[32m                        <div class="box">[m[41m[m
+[32m+[m[32m                            <div class="text">[m[41m[m
+[32m+[m[32m                                <h4>Experience Latest</h4>[m[41m[m
+[32m+[m[32m                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.[m[41m [m
+[32m+[m[32m                                    Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                            <div class="year">[m[41m[m
+[32m+[m[32m                                <h5>Organization Name</h5>[m[41m[m
+[32m+[m[32m                                <h6>yyyy - yyyy</h6>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                        <div class="box">[m[41m[m
+[32m+[m[32m                            <div class="text">[m[41m[m
+[32m+[m[32m                                <h4>Experience Last</h4>[m[41m[m
+[32m+[m[32m                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.[m[41m [m
+[32m+[m[32m                                    Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                            <div class="year">[m[41m[m
+[32m+[m[32m                                <h5>Organization Name</h5>[m[41m[m
+[32m+[m[32m                                <h6>yyyy - yyyy</h6>[m[41m[m
+[32m+[m[32m                            </div>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                    </section>[m[41m[m
+[32m+[m[32m                    <section class="project sect">[m[41m[m
+[32m+[m[32m                        <h4 class="right-title">Project</h4>[m[41m[m
+[32m+[m[32m                        <div class="projects">[m[41m[m
+[32m+[m[32m                            <h4>Project 1</h4>[m[41m[m
+[32m+[m[32m                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.[m[41m [m
+[32m+[m[32m                               Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                        <div class="projects">[m[41m[m
+[32m+[m[32m                            <h4>Project 2</h4>[m[41m[m
+[32m+[m[32m                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.[m[41m [m
+[32m+[m[32m                               Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                        <div class="projects">[m[41m[m
+[32m+[m[32m                            <h4>Project 3</h4>[m[41m[m
+[32m+[m[32m                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.[m[41m [m
+[32m+[m[32m                               Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[32m                    </section>[m[41m[m
+                 </div>[m
+             </section>[m
+         </main>[m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex 66cf8f4..7723f2b 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -6,4 +6,148 @@[m
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;[m
+ }[m
+ [m
+[32m+[m[32m/* Write CSS code below */[m[41m[m
+[32m+[m[32mbody{[m[41m[m
+[32m+[m[32m    background-color: #add8e6;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.main-content {[m[41m[m
+[32m+[m[32m    display: grid;[m[41m[m
+[32m+[m[32m    grid-template-columns: 300px 700px;[m[41m[m
+[32m+[m[32m    min-height: 1000px;[m[41m[m
+[32m+[m[32m    width: 90%;[m[41m[m
+[32m+[m[32m    margin: 20px auto;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m.left-section{[m[41m[m
+[32m+[m[32m    grid-column: span 1;[m[41m[m
+[32m+[m[32m    background-color: #003147;[m[41m[m
+[32m+[m[32m    color: #fff;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.right-section{[m[41m[m
+[32m+[m[32m    grid-column: span 1 / span 2;[m[41m[m
+[32m+[m[32m    background-color: #fff;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.left-content{[m[41m[m
+[32m+[m[32m    padding: 1rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.profile-image{[m[41m[m
+[32m+[m[32m    display: block;[m[41m[m
+[32m+[m[32m    margin: auto;[m[41m[m
+[32m+[m[32m    border: 5px white solid;[m[41m[m
+[32m+[m[32m    border-radius: 30%;[m[41m[m
+[32m+[m[32m    width: 60%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.name{[m[41m[m
+[32m+[m[32m    font-size: 1.2rem;[m[41m[m
+[32m+[m[32m    font-weight: 700;[m[41m[m
+[32m+[m[32m    padding: 0.8rem;[m[41m[m
+[32m+[m[32m    text-align: center;[m[41m[m
+[32m+[m[32m    text-transform: uppercase;[m[41m[m
+[32m+[m[32m    letter-spacing: 0.02px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.designation{[m[41m[m
+[32m+[m[32m    font-size: 1rem;[m[41m[m
+[32m+[m[32m    text-align: center;[m[41m[m
+[32m+[m[32m    text-transform: uppercase;[m[41m[m
+[32m+[m[32m    padding-bottom: 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.description{[m[41m[m
+[32m+[m[32m    font-size: 0.75rem;[m[41m[m
+[32m+[m[32m    text-align: center;[m[41m[m
+[32m+[m[32m    padding: 1rem 1rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.social-media{[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m    justify-content: space-evenly;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.contactInfo{[m[41m[m
+[32m+[m[32m    padding: 5%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.contactInfo ul{[m[41m[m
+[32m+[m[32m    position: relative;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.contactInfo ul li{[m[41m[m
+[32m+[m[32m    position: relative;[m[41m[m
+[32m+[m[32m    list-style: none;[m[41m[m
+[32m+[m[32m    margin: 10px 0;[m[41m[m
+[32m+[m[32m    cursor: pointer;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.contactInfo ul li .icon{[m[41m[m
+[32m+[m[32m    display: inline-block;[m[41m[m
+[32m+[m[32m    width: 30px;[m[41m[m
+[32m+[m[32m    font-size: 18px;[m[41m[m
+[32m+[m[32m    color: #03a9f4;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.contactInfo ul li span{[m[41m[m
+[32m+[m[32m    color: #fff;[m[41m[m
+[32m+[m[32m    font-weight: 300;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.skills{[m[41m[m
+[32m+[m[32m    font-size: 0.75rem;[m[41m[m
+[32m+[m[32m    text-align: center;[m[41m[m
+[32m+[m[32m    text-transform: uppercase;[m[41m[m
+[32m+[m[32m    padding: 1rem 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.skill-name{[m[41m[m
+[32m+[m[32m    font-size: 0.65rem;[m[41m[m
+[32m+[m[32m    font-weight: 0.65rem;[m[41m[m
+[32m+[m[32m    text-align: left;[m[41m[m
+[32m+[m[32m    padding-bottom: 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.progress-bar {[m[41m[m
+[32m+[m[32m    border: 1px white solid;[m[41m[m
+[32m+[m[32m    height: 4px;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m  [m
+[32m+[m[32m.progress-bar>div {[m[41m[m
+[32m+[m[32m    border: 1px white solid;[m[41m[m
+[32m+[m[32m    background-color: #fff;[m[41m[m
+[32m+[m[32m    height: 4px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.skill-item{[m[41m[m
+[32m+[m[32m    padding: 5px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.right-main-content{[m[41m[m
+[32m+[m[32m    padding: 2rem 3rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.right-title{[m[41m[m
+[32m+[m[32m    text-transform: uppercase;[m[41m[m
+[32m+[m[32m    font-size: 1.2rem;[m[41m[m
+[32m+[m[32m    font-weight: 700;[m[41m[m
+[32m+[m[32m    padding: 0.5rem;[m[41m[m
+[32m+[m[32m    letter-spacing: 1px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.para{[m[41m[m
+[32m+[m[32m    padding: 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.box{[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.box>.text{[m[41m[m
+[32m+[m[32m    padding: 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.box>.text{[m[41m[m
+[32m+[m[32m    padding: 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mh6{[m[41m[m
+[32m+[m[32m    margin-top: 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.box .year{[m[41m[m
+[32m+[m[32m    min-width: 150px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.projects{[m[41m[m
+[32m+[m[32m    padding: 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m@media (max-width: 673px){[m[41m[m
+[32m+[m[32m    .main-content {[m[41m[m
+[32m+[m[32m        grid-template-columns: repeat(1, 1fr);[m[41m[m
+[32m+[m[32m        width: 90%;[m[41m[m
+[32m+[m[32m        min-height: 1000px;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+ /* Write CSS code below */[m
+\ No newline at end of file[m
